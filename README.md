@@ -1,1 +1,1 @@
-# Graph-Based_Segmentation
+# Graph-Based Images Segmentation
