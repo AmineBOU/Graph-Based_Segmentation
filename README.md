@@ -9,3 +9,8 @@ Paper 2 :
 Fourni par le prof 
 
 http://medialab.sjtu.edu.cn/teaching/DIP/Projects/chapter_seg/SurveyGraphImageSegmentation.pdf
+
+
+Interactive image segmentation : ( GITHUB) 
+
+https://github.com/symao/InteractiveImageSegmentation
