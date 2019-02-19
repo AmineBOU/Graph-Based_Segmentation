@@ -14,3 +14,13 @@ http://medialab.sjtu.edu.cn/teaching/DIP/Projects/chapter_seg/SurveyGraphImageSe
 Interactive image segmentation : ( GITHUB) 
 
 https://github.com/symao/InteractiveImageSegmentation
+
+
+
+### Tasks :
+
+- Implémenter un algorithme de segmentation d'image basé sur les graphes.
+- Parmi les différentes méthodes de l'article de référence on se focalisera sur Graph cut with cost functions: Minimal cut methods.
+- L'algorithme sera appliqué aux images de radiographie de la main.
+- Evaluation expérimentale.
+- Comparer les différentes conditions d'application de l'algorithme conduisant à obtenir des résultats appropriés aussi bien que des résultats moins satisfaisants. 
