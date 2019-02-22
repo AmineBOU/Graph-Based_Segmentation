@@ -1,4 +1,7 @@
+
 # Graph-Based Images Segmentation
+
+<img src="data/001.PNG" alt="Smiley face" height="42" width="42">
 
 Graph cut based methods with cost functions
 
