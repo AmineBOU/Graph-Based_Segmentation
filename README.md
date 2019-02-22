@@ -1,26 +1,35 @@
 # Graph-Based Images Segmentation
 
-Paper 1 :
+Graph cut based methods with cost functions
 
-http://www.maths.lth.se/matematiklth/personal/petter/rapporter/graph.pdf
+### Papers
 
-Paper 2 : 
+* http://www.maths.lth.se/matematiklth/personal/petter/rapporter/graph.pdf
 
-Fourni par le prof 
-
-http://medialab.sjtu.edu.cn/teaching/DIP/Projects/chapter_seg/SurveyGraphImageSegmentation.pdf
+* http://medialab.sjtu.edu.cn/teaching/DIP/Projects/chapter_seg/SurveyGraphImageSegmentation.pdf
 
 
-Interactive image segmentation : ( GITHUB) 
+### Dependencies:
 
-https://github.com/symao/InteractiveImageSegmentation
+1. System wide dependencies
+	1. Python 3.5+
+	2. opencv (along with python bindings, comes together by default)
+2. Project dependencies
+	(Recommends using python virtualenv: http://docs.python-guide.org/en/latest/dev/virtualenvs )
+	1. All dependencies are enlisted in requirements.txt
+		Install them using : pip install -r requirements.txt
 
 
+### Executing the code:
 
-### Tasks :
+1. Run the main file using python3: python3 fast_seg.py -i <input-image>
+	* Will provide a minimal GUI to mark the seed pixels. While marking, switching between "background" and "object" pixels are done using keys 'b' and 'o' respectively. By default GUI initializes in object mode. Object is marked with "red" markings and Background with "blue".
+	* Use 'python3 fast_seg.py -h' for help
+2. Press ESC after marking the seeds.
+3. Output window will provide the results.
+4. Output image will be written in running folder, named "out.png"
 
-- Implémenter un algorithme de segmentation d'image basé sur les graphes.
-- Parmi les différentes méthodes de l'article de référence on se focalisera sur Graph cut with cost functions: Minimal cut methods.
-- L'algorithme sera appliqué aux images de radiographie de la main.
-- Evaluation expérimentale.
-- Comparer les différentes conditions d'application de l'algorithme conduisant à obtenir des résultats appropriés aussi bien que des résultats moins satisfaisants. 
+
+For any other inquiries file an issue at https://github.com/shameempk/fast_seg.
+
+
