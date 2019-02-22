@@ -3,7 +3,7 @@
 
 <center><img src="data/001.PNG" height="400" width="800"></center>
 
-Graph cut based methods with cost functions
+Graph cut based methods with cost functions thanks to <a href="https://github.com/shameempk/fast_seg">Muhammed Shameem</a>'s implementation. 
 
 ### Papers
 
